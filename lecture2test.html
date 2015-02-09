@@ -1,0 +1,17 @@
+<!doctype html>
+	<head>
+	
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="scripts.js"></script>
+	</head>
+	
+	<body>
+		<input type="text" value="" id='text' />
+		<input type="button" value="Press me!" onclick="showMessage()" />
+		<BR><input type="number" value="" id='xval' />
+		<BR><input type="number" value="" id='yval' />
+		<BR><input type="button" value="Calculate x+y" onclick="addition(xval, yval)" /> <span id='result'>0</span>
+		<BR><p>The length of the entered text is <span id='length'>0</span>.</p>
+		<img id='wasted' src="images/wasted.gif" onmouseover="addBorder();" onmouseout="removeBorder();" />
+	</body>
+</html>
